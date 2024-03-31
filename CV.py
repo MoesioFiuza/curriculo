@@ -47,10 +47,7 @@ options = {
     "Lojas Americanas": "Customer Success"
 }
 
-with io.open("moesi.png", 'rb') as file:
-    img = file.read()
 
-st.image(img)
 st.sidebar.image("moesi.png", width=200)
 st.sidebar.markdown("<h1 style='font-size: 50px; text-align: center;'>Moésio Fiùza</h1>", unsafe_allow_html=True)
 
