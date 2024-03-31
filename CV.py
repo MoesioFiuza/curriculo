@@ -58,10 +58,10 @@ st.sidebar.markdown("<h1 style='font-size: 50px; text-align: center;'>Moésio Fi
 selected_company = st.sidebar.selectbox("Experiência", list(options.keys()))
 
 st.sidebar.markdown("<h1 style='text-align: left;'>Formação</h1>", unsafe_allow_html=True)
-st.sidebar.markdown("<h3 style='text-align: left;'>Mestrando em Ciência de Dados e Machine Learning - Unicamp</h3>", unsafe_allow_html=True)
-st.sidebar.markdown("<p style='text-align: left;'>Período: 02/2024 - 08/2026</p>", unsafe_allow_html=True)
-st.sidebar.markdown("<h3 style='text-align: left;'>Análise e Desenvolvimento de Sistemas - Estácio Sá</h3>", unsafe_allow_html=True)
-st.sidebar.markdown("<p style='text-align: left;'>Concluído - Nota geral 9,5</p>", unsafe_allow_html=True)
+st.sidebar.markdown("<h3 style='text-align: left;'>Ciência de Dados e Machine Learning - Cruzeiro do Sul</h3>", unsafe_allow_html=True)
+st.sidebar.markdown("<p style='text-align: left;'>Período: 02/2023 - 12/2025</p>", unsafe_allow_html=True)
+st.sidebar.markdown("<h3 style='text-align: left;'>Computação em Nuvem - Unopar</h3>", unsafe_allow_html=True)
+st.sidebar.markdown("<p style='text-align: left;'>08/2022 - 12/2024</p>", unsafe_allow_html=True)
 
 
 if selected_company in options:
